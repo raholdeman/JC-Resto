@@ -1,0 +1,205 @@
+/*////////////////////////Overlay/////////////////////////*/
+
+#wrapper {
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/*////////////////////////Heading/////////////////////////*/
+
+header {
+    float:left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 40px;
+}
+
+a h1 {
+    color: white;
+}
+
+#logo {
+    float:left;
+    text-align: left;
+    margin-left: 5%;
+    max-width: 45%;
+}
+
+#logo h1 {
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+/*************************Navigation**********************/
+
+nav {
+    float: right;
+    margin:20px 0 0;
+    max-width: 45%;
+    margin-right: 5%;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+}
+
+nav li a {
+    padding: 15px;
+    margin: 0;
+    color:white;
+    border:solid;
+    border-radius: 20% 20% 0 0;
+    background: darkgoldenrod;
+}
+
+/*////////////////////////Lists/////////////////////////*/
+
+#menuNav ul {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+#menuNav li {
+    display: inline-block;
+    margin: 0 7%;
+    background: green;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    list-style: none;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.3em;
+}
+
+#menuNav h1 {
+    display: inline-block;
+    width: 100%;
+}
+
+/*////////////////////////Menus/////////////////////////*/
+
+.menu {
+    margin: 0 auto;
+    max-width: 1020px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.menu h1, h2, h3, p {
+    margin: 0;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.menu h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu h2 {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.menu h3 {
+    display: inline-block;
+    float: left;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.menu p {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    margin: 10px 0;
+}
+
+
+
+/*////////////////////////Slideshow/////////////////////////*/
+
+.container {
+margin: 0 auto;
+text-align: center;
+}
+
+.container div {
+    width: 100%;
+    display: none;
+}
+
+button {
+    position:relative;
+}
+
+.prev {
+    right: 40px;
+}
+
+.next {
+    left: 40px;
+}
+
+/*////////////////////////Footer/////////////////////////*/
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
