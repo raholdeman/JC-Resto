@@ -74,6 +74,12 @@ nav li a {
     background: darkgoldenrod;
 }
 
+nav li a.selected {
+    background: white;
+    color: red;
+    border-color: white;
+}
+
 /*////////////////////////Lists/////////////////////////*/
 
 #menuNav ul {
@@ -106,7 +112,7 @@ nav li a {
     color:white;
 }
 
-.selected li {
+#menuNav li.selected {
     color: white;
 }
 
@@ -144,7 +150,7 @@ nav li a {
     margin: 10px 0;
 }
 
-.selected {
+div.selected {
     display: block;
 }
 
