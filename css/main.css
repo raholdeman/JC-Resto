@@ -106,46 +106,47 @@ nav li a {
     color:white;
 }
 
+.selected li {
+    color: white;
+}
+
 /*////////////////////////Menus/////////////////////////*/
 
 .menu {
     margin: 0 auto;
     max-width: 1020px;
     font-family: 'Lobster Two', cursive;
+    display: none;
 }
 
 .menu h1, h2, h3, p {
     margin: 0;
-    display: inline-block;
     float: left;
     width: 100%;
 }
 
 .menu h1 {
-    display: inline-block;
     text-align: center;
 }
 
 .menu h2 {
-    display: inline-block;
-    float: left;
     width: 100%;
     text-align: center;
 }
 .menu h3 {
-    display: inline-block;
-    float: left;
     width: 90%;
     margin: 10px 0;
 }
 
 .menu p {
-    display: inline-block;
     float: right;
     width: 10%;
     margin: 10px 0;
 }
 
+.selected {
+    display: block;
+}
 
 
 /*////////////////////////Slideshow/////////////////////////*/
