@@ -37,7 +37,7 @@ $('.prev').click(function() {
 
 /**************************************Menu*****************************************/
 
-$('.menu2','menu3','menu4','menu5').hide();
+$('.menu2, .menu3, .menu4, .menu5').hide();
 
 /*$('.brkFst').click(function(){
 	$('.menu1').show();
