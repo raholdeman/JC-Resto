@@ -9,42 +9,41 @@
   </head>
   <body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>Jean Claude's Restaurant</h1>
-      </a>
+      <a href="index.html" id="logo"><h1>Jean Claude's Restaurant</h1></a>
       <nav>
         <ul>
           <li><a href="menu.html">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html" class="selected">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <div>
-      <h1>About Us</h1>
+    <div class="menuNav">
       <ul>
-        <li>Our Story</li>
-        <li>Our Values</li>
-        <li>Our Commitment</li>
+        <li class="tab story selected">Our Story</li>
+        <li class="tab value">Our Values</li>
+        <li class="tab commit">Our Commitment</li>
       </ul>
-      <div>
-        <div>
+    </div>
+        <div class="section story selected">
           <h2>Our Story</h2>
           <p>We started as a doomed bistro on the lake and transformed into one of the best restaurants in Scottsdale.</p>
         </div>  
-        <div>
+
+        <div class="section value">
           <h2>Our Values</h2>
           <p>We put the customer first. Period.</p>
-        </div>  
-        <div>
+        </div> 
+
+        <div class="section commit">
           <h2>Our Commitment</h2>
           <p>We've been in this business for a long time and we don't plan on stopping anytime soon.</p>
-        </div>
-      </div  
-    </div>  
+        </div>    
     <footer>
-      <p>&copy; Ryan Holdeman</p>
+      <p>&copy; 2015 Ryan Holdeman</p>
       <p>E-mail: <a href="mailto:antonholdeman@gmail.com">antonholdeman@gmail.com</a></p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>     
   </body>
 </html>

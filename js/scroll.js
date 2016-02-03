@@ -67,3 +67,23 @@ $('.menu5').click(function() {
   $('.tab').removeClass('selected');
   $('.menu5').addClass('selected');
 });
+
+/**************************************About*****************************************/
+
+$('.story').click(function() {
+  $('.section').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.story').addClass('selected');
+});
+
+$('.value').click(function() {
+  $('.section').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.value').addClass('selected');
+});
+
+$('.commit').click(function() {
+  $('.section').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.commit').addClass('selected');
+});
