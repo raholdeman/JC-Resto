@@ -37,9 +37,33 @@ $('.prev').click(function() {
 
 /**************************************Menu*****************************************/
 
-/*$('.menu2, .menu3, .menu4, .menu5').hide();
 
-$('.brkFst').click(function(){
-	$('.menu1').show();
+$('.menu1').click(function() {
+  $('.menu').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.menu1').addClass('selected');
 });
-*/
+
+$('.menu2').click(function() {
+  $('.menu').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.menu2').addClass('selected');
+});
+
+$('.menu3').click(function() {
+  $('.menu').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.menu3').addClass('selected');
+});
+
+$('.menu4').click(function() {
+  $('.menu').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.menu4').addClass('selected');
+});
+
+$('.menu5').click(function() {
+  $('.menu').removeClass('selected');
+  $('.tab').removeClass('selected');
+  $('.menu5').addClass('selected');
+});
