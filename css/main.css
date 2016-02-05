@@ -15,7 +15,7 @@ a {
 
 body {
     margin: 0;
-    min-height: 100%;
+    min-height: 800px;
 }
 
 div h1 {
@@ -31,7 +31,6 @@ header {
     margin: 0;
     background-color: red;
     font-family: 'Lobster Two', cursive;
-    margin-bottom: 40px;
 }
 
 a h1 {
@@ -94,23 +93,24 @@ nav li a.selected {
 /************************Lists*************************/
 
 .menuNav ul {
-    margin: 0;
+    margin: 10px 0;
     display: inline-block;
     width: 100%;
     list-style: none;
     padding-left: 0;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    background-color: orange;
 }
 
 .menuNav li {
     display: inline-block;
-    margin: 0 7%;
+    margin: 0 6.9%;
     background: green;
-    padding: 0;
-    border: 0;
+    padding: 10px;
+    border: solid;
+    border-radius: 70%;
     text-align: center;
     list-style: none;
-    font-family: 'Lobster Two', cursive;
     font-size: 1.3em;
 }
 
@@ -120,7 +120,7 @@ nav li a.selected {
 }
 
 .tab:hover {
-    color:white;
+    color: white;
     cursor: pointer;
 }
 
@@ -128,12 +128,15 @@ nav li a.selected {
     color: white;
 }
 
+div.menuNav {
+    display: inline-block;
+    min-width: 100%;
+}
+
 /************************Menus**********************/
 
 .menu {
-    margin: 0 auto;
-    max-width: 1020px;
-    font-family: 'Lobster Two', cursive;
+    min-width: 1020px;
     display: none;
 }
 
@@ -163,8 +166,12 @@ nav li a.selected {
 }
 
 div.selected {
-    display: block;
+    display: inline-block;
 }
+
+/*.menu1 {
+    background: url(../img/cereal.jpg) no-repeat left fixed; 
+}*/
 
 /**************************About Us************************/
 
@@ -208,18 +215,27 @@ button {
 }
 
 .prev {
-    right: 40px;
+    right: 650px;
+    top: 300px;
 }
 
 .next {
-    left: 40px;
+    left: 625px;
+    top: 300px;
+}
+
+div img {
+    max-width: 100%;
+    max-height: 800px;
+    text-align: center;
 }
 
 /***************************Footer***********************/
 
 footer {
     text-align: center;
-    padding-top: 300px;
+    display: inline-block;
+    min-width: 100%
 }
 
 
