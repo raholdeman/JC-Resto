@@ -1,12 +1,16 @@
 
 
 /**************************Overlay*************************/
-html {
-    min-height: 100%;
+html, body {
+  height: 100%;
 }
-
-#wrapper {
-  padding: 0 5%;
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -40px; 
+}
+.wrapper:after {
+  content: "";
+  display: block;
 }
 
 a {
@@ -15,7 +19,6 @@ a {
 
 body {
     margin: 0;
-    min-height: 800px;
 }
 
 div h1 {
@@ -201,8 +204,8 @@ div.selected {
 /**************************Slideshow************************/
 
 .container {
-margin: 0 auto;
-text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container div {
@@ -235,21 +238,27 @@ div img {
 footer {
     text-align: center;
     display: inline-block;
-    min-width: 100%
+    min-width: 100%;
+    background-color: red;
+    color: white;
 }
 
+.footer, .wrapper:after {
+  height: 40px; 
+}
+
+.footer p a {
+    color: white;
+}
+
+ 
+
+
+  
 
 
 
-
-
-
-
-
-
-
-
-
+  
 
 
 
